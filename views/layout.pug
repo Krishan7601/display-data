@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1=title
+    .table-of-contents
+      h2 Table of Contents:
+      ul
+        li
+          a(href="/") Home
+        li
+          a(href="/piinfo") Raspberry Pi Information
+        li
+          a(href="/adsb") ADS-B In Data Display
+    block content
+
+      
